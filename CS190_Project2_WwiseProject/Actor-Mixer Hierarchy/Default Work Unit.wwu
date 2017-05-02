@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Lightsaber-Idle-Loop" ID="{B5DDEC4C-9161-429A-A3CA-10D0B628CE74}" ShortID="165179759" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lightsaber-Idle" ID="{4103474D-1C0B-49FE-AD28-F70EFD2CBA96}" ShortID="544707737">
+							<Language>SFX</Language>
+							<AudioFile>Lightsaber-Idle.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lightsaber-Idle" ID="{4103474D-1C0B-49FE-AD28-F70EFD2CBA96}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PirateAmbient-Loop" ID="{10B302A3-723E-410F-94B4-4C376958AD61}" ShortID="213908138" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PirateAmbient" ID="{4D0AFD2B-D694-436C-A02F-856A370F060F}" ShortID="233516930">
+							<Language>SFX</Language>
+							<AudioFile>PirateAmbient.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PirateAmbient" ID="{4D0AFD2B-D694-436C-A02F-856A370F060F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SeaNoise-Loop" ID="{75522E61-4A79-4ADF-9699-59C4015632F5}" ShortID="351823907" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SeaNoise" ID="{293AF7E2-825C-4DDD-9A5D-58668E86E530}" ShortID="647498923">
+							<Language>SFX</Language>
+							<AudioFile>SeaNoise.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SeaNoise" ID="{293AF7E2-825C-4DDD-9A5D-58668E86E530}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ShipNoises-Loop" ID="{397DCF73-B7A8-4A28-88EF-7CDC8010AFC8}" ShortID="24285559" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ShipNoises" ID="{E23A4FDE-1925-43FA-93F2-7DE1CB04169B}" ShortID="256581324">
+							<Language>SFX</Language>
+							<AudioFile>ShipNoises.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ShipNoises" ID="{E23A4FDE-1925-43FA-93F2-7DE1CB04169B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GameSountrack-Loop" ID="{AD7D2A01-A1F6-45D1-B97C-2E89B1A60A8A}" ShortID="9609228" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GameSountrack" ID="{D008D386-2BC3-4EA6-AF46-E9D74E1D45EF}" ShortID="444036591">
+							<Language>SFX</Language>
+							<AudioFile>GameSountrack.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GameSountrack" ID="{D008D386-2BC3-4EA6-AF46-E9D74E1D45EF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Jump-and-Land" ID="{9B889616-D29B-4280-A7AA-4FDEFD2992CD}" ShortID="899249480" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="JumpLanding" ID="{CCECC738-1816-4048-A930-0C00F98AB862}" ShortID="226680437">
+							<Language>SFX</Language>
+							<AudioFile>JumpLanding.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="JumpLanding" ID="{CCECC738-1816-4048-A930-0C00F98AB862}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BattleAmbiance-Loop" ID="{877C0201-43BF-45D2-A223-24CACD8DEA81}" ShortID="559288418" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CRWD_Military_HS01_30_01" ID="{8B3A80B6-8058-40D8-A5A8-53E20F05D767}" ShortID="155356747">
+							<Language>SFX</Language>
+							<AudioFile>CRWD_Military_HS01_30_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CRWD_Military_HS01_30_01" ID="{8B3A80B6-8058-40D8-A5A8-53E20F05D767}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="FootstepRandomizer" ID="{5724097E-CA91-4AA6-A680-15C0CAA06D10}" ShortID="273662760">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{975BA233-0427-429D-A7C5-3A5BECF5A69A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E8DCDC77-1874-4D7E-B77A-47181DF253D7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footstep1" ID="{240F736F-D772-422C-B58F-D0C5B15A7959}" ShortID="320778503" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B8D15AA0-D1CB-47A2-AD29-09C515EDD837}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footstep1" ID="{4EF986D6-23D5-426F-ACE7-3E88C0D7D21F}" ShortID="973250252">
+									<Language>SFX</Language>
+									<AudioFile>Footstep1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footstep1" ID="{4EF986D6-23D5-426F-ACE7-3E88C0D7D21F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep2" ID="{33023A66-9607-4AF6-A965-AE3631F92B15}" ShortID="797887172" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6673F625-F28A-4539-9B38-5E03247F488E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footstep2" ID="{D686BAEE-068B-4ED6-8AA1-D4FA968C8A50}" ShortID="326220104">
+									<Language>SFX</Language>
+									<AudioFile>Footstep2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footstep2" ID="{D686BAEE-068B-4ED6-8AA1-D4FA968C8A50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Damage-GroanSounds" ID="{3508F2D9-1BA4-4D9A-88F2-2A835B381608}" ShortID="224801739">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{93CC4784-C018-440E-A008-21840151244D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Groan" ID="{1678791C-D355-469A-AC85-160EC71A4BB2}" ShortID="617501493" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Groan" ID="{5F93DC1B-7F04-4FAE-8FB6-1F1BEBD3CCE5}" ShortID="207270940">
+									<Language>SFX</Language>
+									<AudioFile>Groan.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Groan" ID="{5F93DC1B-7F04-4FAE-8FB6-1F1BEBD3CCE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Scream" ID="{D551F07A-F05C-478C-BBC4-449AAFACD57C}" ShortID="129717546" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scream" ID="{CF371206-BD3E-4373-A2F4-CFE1919560E2}" ShortID="692038443">
+									<Language>SFX</Language>
+									<AudioFile>Scream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scream" ID="{CF371206-BD3E-4373-A2F4-CFE1919560E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="LightsaberNoises" ID="{324A96FA-E024-4D8A-BE8F-B85EB02E64EF}" ShortID="63346103">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E91531C1-D9AB-445F-A986-5DD4FC1D6BC5}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LightsaberSounds" ID="{31D858BD-05FA-428D-8A72-239BF534C2B4}" ShortID="388295813" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds" ID="{0D70A92F-634C-4A2C-819D-F2BD7DC62B55}" ShortID="122229230">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds" ID="{0D70A92F-634C-4A2C-819D-F2BD7DC62B55}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LightsaberSounds-1" ID="{357DD9DD-E1ED-40C9-8626-D07722991C57}" ShortID="925083190" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds-1" ID="{DA5BD95E-78E4-4F10-952B-D753D1F4A705}" ShortID="569718692">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds-1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds-1" ID="{DA5BD95E-78E4-4F10-952B-D753D1F4A705}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LightsaberSounds-2" ID="{1A7598F1-04EE-40EC-92DB-E90B553F137D}" ShortID="741992784" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds-2" ID="{154ADDC4-0459-4862-9472-5C628C1A792D}" ShortID="833075655">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds-2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds-2" ID="{154ADDC4-0459-4862-9472-5C628C1A792D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LightsaberSounds-3" ID="{6F349195-9F72-4871-8004-3F556D62A81D}" ShortID="300010847" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds-3" ID="{B745E41F-7BC6-4ABF-9F13-6E44E5437825}" ShortID="246320825">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds-3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds-3" ID="{B745E41F-7BC6-4ABF-9F13-6E44E5437825}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LightsaberSounds-4" ID="{9DC554FF-5312-40E8-8081-2352EE055EFD}" ShortID="953416425" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds-4" ID="{CFD729AF-4B13-4C2A-91F3-17013661AF65}" ShortID="356213069">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds-4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds-4" ID="{CFD729AF-4B13-4C2A-91F3-17013661AF65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LightsaberSounds-5" ID="{70BDB1F6-5931-4C2E-8371-9DAE22155DC8}" ShortID="207676276" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LightsaberSounds-5" ID="{01237AA5-ED84-497C-8515-C62ED652376A}" ShortID="708148662">
+									<Language>SFX</Language>
+									<AudioFile>LightsaberSounds-5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LightsaberSounds-5" ID="{01237AA5-ED84-497C-8515-C62ED652376A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
