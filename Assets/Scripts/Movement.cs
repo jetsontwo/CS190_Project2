@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour {
             if (touching_ground())
                 rb.AddForce(new Vector2(0, jump_power), ForceMode2D.Impulse);
 
-        if (count >= 22)
+        if (count >= 24)
         {
             step.Step();
             count = 0;
