@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="LightSaber_1" ID="{6E63AA12-590E-4DF3-98F1-54E7C8465118}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F3946B22-AFFB-42F3-8685-A0C5A24AE219}" ShortID="21274779" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{01C1C772-7C79-4DE0-8F1E-69DE38C723BA}" Global="false">
+									<ObjectRef Name="Lightsaber-Idle-Loop" ID="{B5DDEC4C-9161-429A-A3CA-10D0B628CE74}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Step" ID="{7AEA2950-E4B0-4BAA-B0F7-338A1B32374E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9ECC09B5-A829-45F1-A13E-5F09395B2E63}" ShortID="776901705" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DABC7A3F-453A-4E26-928F-D64A95A0349D}" Global="false">
+									<ObjectRef Name="FootstepRandomizer" ID="{5724097E-CA91-4AA6-A680-15C0CAA06D10}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{9656A614-A2C3-4198-8F62-3F228F7116BF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DE10F711-7F0B-4979-B5BF-A72396E1BC4F}" ShortID="199656880" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{120D159E-75A8-47A3-9AB5-598AF1F0C391}" Global="false">
+									<ObjectRef Name="Land" ID="{9B889616-D29B-4280-A7AA-4FDEFD2992CD}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

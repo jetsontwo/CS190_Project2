@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{01E06784-0C14-4E00-827E-AF2065FB140F}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{01E06784-0C14-4E00-827E-AF2065FB140F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{01E06784-0C14-4E00-827E-AF2065FB140F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{5E820710-9F3E-406C-B5D6-F1160C8B4120}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Land" ID="{9656A614-A2C3-4198-8F62-3F228F7116BF}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Step" ID="{7AEA2950-E4B0-4BAA-B0F7-338A1B32374E}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LightSaber_1" ID="{6E63AA12-590E-4DF3-98F1-54E7C8465118}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

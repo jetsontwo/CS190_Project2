@@ -16,5 +16,33 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
+				<Event Id="3774976978" Name="LightSaber_1" ObjectPath="\Events\Default Work Unit\LightSaber_1"/>
+				<Event Id="621108255" Name="Step" ObjectPath="\Events\Default Work Unit\Step"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="310099400" Language="SFX">
+					<ShortName>JumpLanding_Cut.wav</ShortName>
+					<Path>SFX\JumpLanding_Cut_9E69E797.wem</Path>
+				</File>
+				<File Id="326220104" Language="SFX">
+					<ShortName>Footstep2.wav</ShortName>
+					<Path>SFX\Footstep2_9E69E797.wem</Path>
+				</File>
+				<File Id="544707737" Language="SFX">
+					<ShortName>Lightsaber-Idle.wav</ShortName>
+					<Path>SFX\Lightsaber-Idle_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="973250252" Language="SFX">
+					<ShortName>Footstep1.wav</ShortName>
+					<Path>SFX\Footstep1_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

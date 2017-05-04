@@ -5,9 +5,79 @@
 			<ChildrenList>
 				<Sound Name="Lightsaber-Idle-Loop" ID="{B5DDEC4C-9161-429A-A3CA-10D0B628CE74}" ShortID="165179759" Type="SoundFX">
 					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{A5342FA5-29ED-4019-8693-7766EEC76FE9}" ShortID="234522060">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{227E39F3-CBAA-41CB-A70B-3D101555EE63}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
+												<Curve Name="VolumeWetUser" ID="{3A44141D-6A74-445A-8941-F40B114DD2CD}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
 						</Reference>
@@ -21,6 +91,14 @@
 							<AudioFile>Lightsaber-Idle.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{588B8B5E-E379-44FF-BB26-00B4E3F25677}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-5.55111512312578E-17"/>
+								<Property Name="PanY" Type="Real64" Value="6.10622663543836E-15"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Lightsaber-Idle" ID="{4103474D-1C0B-49FE-AD28-F70EFD2CBA96}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -113,7 +191,7 @@
 						<ActiveSource Name="GameSountrack" ID="{D008D386-2BC3-4EA6-AF46-E9D74E1D45EF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Jump-and-Land" ID="{9B889616-D29B-4280-A7AA-4FDEFD2992CD}" ShortID="899249480" Type="SoundFX">
+				<Sound Name="Land" ID="{9B889616-D29B-4280-A7AA-4FDEFD2992CD}" ShortID="899249480" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -123,13 +201,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="JumpLanding" ID="{CCECC738-1816-4048-A930-0C00F98AB862}" ShortID="226680437">
+						<AudioFileSource Name="JumpLanding_Cut" ID="{3C6EC551-4DC4-443E-84ED-903A985E90BE}" ShortID="310099400">
 							<Language>SFX</Language>
-							<AudioFile>JumpLanding.wav</AudioFile>
+							<AudioFile>JumpLanding_Cut.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="JumpLanding" ID="{CCECC738-1816-4048-A930-0C00F98AB862}" Platform="Linked"/>
+						<ActiveSource Name="JumpLanding_Cut" ID="{3C6EC551-4DC4-443E-84ED-903A985E90BE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BattleAmbiance-Loop" ID="{877C0201-43BF-45D2-A223-24CACD8DEA81}" ShortID="559288418" Type="SoundFX">
