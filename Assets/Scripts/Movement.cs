@@ -55,6 +55,8 @@ public class Movement : MonoBehaviour {
             jump.Jump();
             count = 0;
         }
+        if (c.tag == "Door")
+            c.GetComponent<Scene_Change>().ChangeScene();
     }
 
     void OnTriggerStay2D(Collider2D c)
