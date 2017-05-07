@@ -48,8 +48,13 @@ public class Movement : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D c)
     {
-        jump.Jump();
-        count = 0;
+        if(c.tag == "Button")
+            c.GetComponent<Button_Press>().OnPress();
+        else
+        {
+            jump.Jump();
+            count = 0;
+        }
     }
 
     void OnTriggerStay2D(Collider2D c)
@@ -61,5 +66,7 @@ public class Movement : MonoBehaviour {
     {
         if (c.tag == "Ground")
             on_ground = false;
+        else if (c.tag == "Button")
+            c.GetComponent<Button_Press>().OnPress();
     }
 }
