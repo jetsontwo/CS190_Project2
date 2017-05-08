@@ -8,6 +8,11 @@
 						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -107,6 +112,11 @@
 				<Sound Name="SeaNoise-Loop" ID="{75522E61-4A79-4ADF-9699-59C4015632F5}" ShortID="351823907" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -129,6 +139,11 @@
 				<Sound Name="ShipNoises-Loop" ID="{397DCF73-B7A8-4A28-88EF-7CDC8010AFC8}" ShortID="24285559" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -416,6 +431,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="LightsaberSounds" ID="{31D858BD-05FA-428D-8A72-239BF534C2B4}" ShortID="388295813" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -435,6 +457,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="LightsaberSounds-1" ID="{357DD9DD-E1ED-40C9-8626-D07722991C57}" ShortID="925083190" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -531,6 +560,16 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<BlendContainer Name="Party_Room" ID="{0AF3793B-318F-4315-85F8-1E44784487FA}" ShortID="1022761762">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

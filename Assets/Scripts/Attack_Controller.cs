@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Attack_Controller : MonoBehaviour {
 
+    private Attack_Trigger at;
     private bool attacking;
     public float wait_time;
     private GameObject enemy = null;
+
+    void Start()
+    {
+        print("jkasfd");
+        at = GetComponentInParent<Attack_Trigger>();
+    }
 	
 	// Update is called once per frame
 	public void attack () {
@@ -31,6 +38,7 @@ public class Attack_Controller : MonoBehaviour {
         }
         if (enemy != null)
             enemy.GetComponent<Stats>().hurt(10);
+        at.Attack();
         while (transform.rotation.eulerAngles.z < 320)
         {
             transform.Rotate(new Vector3(0, 0, 3));

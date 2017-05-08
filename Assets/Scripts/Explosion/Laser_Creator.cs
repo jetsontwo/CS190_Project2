@@ -17,7 +17,6 @@ public class Laser_Creator : MonoBehaviour {
         while(true)
         {
             int ran_num = Random.Range(1, 3);
-            print(ran_num);
             GameObject new_laser;
             if (ran_num == 1)
                 new_laser = Instantiate(laser1);

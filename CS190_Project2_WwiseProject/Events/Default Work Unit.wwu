@@ -36,6 +36,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Sea_Noise" ID="{E343CFFE-7C55-40CD-8A05-28914128DBB9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BE2C6BD8-43AB-4049-B52F-81703079E743}" ShortID="89176090" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD56F17C-D181-4D1D-A6D9-AA316A133CEA}" Global="false">
+									<ObjectRef Name="SeaNoise-Loop" ID="{75522E61-4A79-4ADF-9699-59C4015632F5}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ship_Noise" ID="{0DB7BAA8-C7CA-4969-99E0-CDFBF2A2E535}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9B221148-67D0-4B3C-8A5E-CD3BD949E154}" ShortID="162496999" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{066EC8D3-5907-4149-9DC0-0938ACA28543}" Global="false">
+									<ObjectRef Name="ShipNoises-Loop" ID="{397DCF73-B7A8-4A28-88EF-7CDC8010AFC8}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Saber_Attack" ID="{FF563E5C-ACD8-4B0F-907E-CA5115743C81}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2828BF69-C66A-49BE-9EA4-28F047FEFE1B}" ShortID="389934046" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4CEF3B88-AD80-4ECC-A8F5-B4F079D9C9A8}" Global="false">
+									<ObjectRef Name="LightsaberNoises" ID="{324A96FA-E024-4D8A-BE8F-B85EB02E64EF}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

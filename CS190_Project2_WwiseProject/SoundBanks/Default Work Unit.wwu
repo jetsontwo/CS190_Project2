@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="SoundBank" ID="{5E820710-9F3E-406C-B5D6-F1160C8B4120}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Sea_Noise" ID="{E343CFFE-7C55-40CD-8A05-28914128DBB9}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Land" ID="{9656A614-A2C3-4198-8F62-3F228F7116BF}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ship_Noise" ID="{0DB7BAA8-C7CA-4969-99E0-CDFBF2A2E535}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Step" ID="{7AEA2950-E4B0-4BAA-B0F7-338A1B32374E}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LightSaber_1" ID="{6E63AA12-590E-4DF3-98F1-54E7C8465118}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
