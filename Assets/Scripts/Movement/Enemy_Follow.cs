@@ -46,6 +46,11 @@ public class Enemy_Follow : MonoBehaviour {
             step.Step();
             count = 0;
         }
+
+        if(Mathf.Abs(transform.position.magnitude - player.transform.position.magnitude) < 1f)
+        {
+            ac.attack();
+        }
     }
 
 

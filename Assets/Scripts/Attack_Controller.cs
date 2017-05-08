@@ -5,6 +5,7 @@ using UnityEngine;
 public class Attack_Controller : MonoBehaviour {
 
     private bool attacking;
+    public float wait_time;
     private GameObject enemy = null;
 	
 	// Update is called once per frame
@@ -35,6 +36,7 @@ public class Attack_Controller : MonoBehaviour {
             transform.Rotate(new Vector3(0, 0, 3));
             yield return new WaitForSeconds(0.001f);
         }
+        yield return new WaitForSeconds(wait_time);
         attacking = false;
     }
 
