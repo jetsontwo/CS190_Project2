@@ -17,5 +17,7 @@ public class Stats : MonoBehaviour {
     {
         //Can heal by hurting with a negative number
         health -= damage;
+        if (health <= 0)
+            Destroy(gameObject);
     }
 }

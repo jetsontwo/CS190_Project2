@@ -7,9 +7,10 @@ public class Movement : MonoBehaviour {
     private Rigidbody2D rb;
     private Step_Trigger step;
     private Jump_Trigger jump;
+    public Attack_Controller ac;
     private float horiz;
     private int count = 0;
-    private bool on_ground = false;
+    private bool on_ground = false, is_right = true, need_land = false;
     public float speed, max_vel, jump_power, decel;
 
 	// Use this for initialization
@@ -29,10 +30,28 @@ public class Movement : MonoBehaviour {
             rb.velocity += new Vector2(horiz * speed * Time.deltaTime, 0);
         else if (horiz == 0)
             rb.velocity -= new Vector2(rb.velocity.x / decel, 0);
+        if (horiz < 0 && is_right == true)
+        {
+            is_right = false;
+            ac.rotate_sword();
+        }
+        else if (horiz > 0 && is_right == false)
+        {
+            is_right = true;
+            ac.rotate_sword();
+        }
 
         if (Input.GetKeyDown(KeyCode.Space))
+        {
             if (touching_ground())
+            {
                 rb.AddForce(new Vector2(0, jump_power), ForceMode2D.Impulse);
+                need_land = true;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            ac.attack();
 
         if (count >= 24)
         {
@@ -48,12 +67,13 @@ public class Movement : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D c)
     {
-        if(c.tag == "Button")
+        if (c.tag == "Button")
             c.GetComponent<Button_Press>().OnPress();
-        else
+        else if (need_land == true)
         {
             jump.Jump();
             count = 0;
+            need_land = false;
         }
         if (c.tag == "Door")
             c.GetComponent<Scene_Change>().ChangeScene();
