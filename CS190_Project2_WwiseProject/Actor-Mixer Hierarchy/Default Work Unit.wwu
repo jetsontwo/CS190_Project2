@@ -636,28 +636,19 @@
 					<PropertyList>
 						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>12</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-10</Value>
-							</ValueList>
-						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{3FF89AFF-9377-423E-A581-DCEB741ECA16}" ShortID="542914830">
+								<Attenuation Name="Attenuation (Custom)" ID="{3B119AD0-B3CB-40B9-92BA-3683BC171A40}" ShortID="812397709">
 									<PropertyList>
 										<Property Name="RadiusMax" Type="Real64" Value="15"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{5E51A9F5-3601-457D-BE7E-F59073EAA0F1}">
+												<Curve Name="VolumeDry" ID="{29E69B6C-45C9-4E5D-9E83-B32D769D2EDD}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
