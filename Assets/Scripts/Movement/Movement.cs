@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour {
     void Update()
     {
         horiz = Input.GetAxisRaw("Horizontal");
-        if (rb.velocity.x != 0 && on_ground)
+        if (rb.velocity.x != 0 && on_ground && horiz != 0)
             count++;
         if (horiz != 0 && rb.velocity.magnitude < max_vel)
             rb.velocity += new Vector2(horiz * speed * Time.deltaTime, 0);

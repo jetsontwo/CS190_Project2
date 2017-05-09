@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Test" ID="{E5D0F20E-5802-4EFD-8F5E-EE7DA53CF434}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9D7883A1-BE83-4904-97E2-53DF2133B03A}" ShortID="686671520" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{665D7EEF-84DB-40EA-92D0-F137EB969319}" Global="false">
+									<ObjectRef Name="Lightsaber-Idle-Loop_01" ID="{75415E7E-8E89-487C-A0B2-56578ED8E6BA}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -23,11 +23,17 @@
 			<IncludedEvents>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="3774976978" Name="LightSaber_1" ObjectPath="\Events\Default Work Unit\LightSaber_1"/>
+				<Event Id="1238640123" Name="Saber_Attack" ObjectPath="\Events\Default Work Unit\Saber_Attack"/>
 				<Event Id="703966717" Name="Sea_Noise" ObjectPath="\Events\Default Work Unit\Sea_Noise"/>
 				<Event Id="4048094104" Name="Ship_Noise" ObjectPath="\Events\Default Work Unit\Ship_Noise"/>
 				<Event Id="621108255" Name="Step" ObjectPath="\Events\Default Work Unit\Step"/>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="246320825" Language="SFX">
+					<ShortName>LightsaberSounds-3.wav</ShortName>
+					<Path>SFX\LightsaberSounds-3_9E69E797.wem</Path>
+				</File>
 				<File Id="256581324" Language="SFX">
 					<ShortName>ShipNoises.wav</ShortName>
 					<Path>SFX\ShipNoises_4B8CC0C5.wem</Path>
@@ -40,6 +46,10 @@
 					<ShortName>Footstep2.wav</ShortName>
 					<Path>SFX\Footstep2_9E69E797.wem</Path>
 				</File>
+				<File Id="356213069" Language="SFX">
+					<ShortName>LightsaberSounds-4.wav</ShortName>
+					<Path>SFX\LightsaberSounds-4_9E69E797.wem</Path>
+				</File>
 				<File Id="544707737" Language="SFX">
 					<ShortName>Lightsaber-Idle.wav</ShortName>
 					<Path>SFX\Lightsaber-Idle_4B8CC0C5.wem</Path>
@@ -47,6 +57,10 @@
 				<File Id="647498923" Language="SFX">
 					<ShortName>SeaNoise.wav</ShortName>
 					<Path>SFX\SeaNoise_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="708148662" Language="SFX">
+					<ShortName>LightsaberSounds-5.wav</ShortName>
+					<Path>SFX\LightsaberSounds-5_9E69E797.wem</Path>
 				</File>
 				<File Id="973250252" Language="SFX">
 					<ShortName>Footstep1.wav</ShortName>

@@ -2,14 +2,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	621108255	Step			\Default Work Unit\Step	
 	674522502	Land			\Default Work Unit\Land	
 	703966717	Sea_Noise			\Default Work Unit\Sea_Noise	
+	1238640123	Saber_Attack			\Default Work Unit\Saber_Attack	
+	3157003241	Test			\Default Work Unit\Test	
 	3774976978	LightSaber_1			\Default Work Unit\LightSaber_1	
 	4048094104	Ship_Noise			\Default Work Unit\Ship_Noise	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	246320825	LightsaberSounds-3	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-3		121340
 	256581324	ShipNoises-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\ShipNoises_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShipNoises-Loop		12148800
 	310099400	Land	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\JumpLanding_Cut_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land		52984
 	326220104	Footstep2	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Footstep2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepRandomizer\Footstep2		174144
+	356213069	LightsaberSounds-4	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-4		165444
 	544707737	Lightsaber-Idle-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Lightsaber-Idle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lightsaber-Idle-Loop		19984428
 	647498923	SeaNoise-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\SeaNoise_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SeaNoise-Loop		33955904
+	708148662	LightsaberSounds-5	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-5		132368
 	973250252	Footstep1	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Footstep1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepRandomizer\Footstep1		159808
 

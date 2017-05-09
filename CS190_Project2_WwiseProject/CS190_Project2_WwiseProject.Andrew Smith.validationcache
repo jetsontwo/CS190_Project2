@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2164821276" DateHigh="30591055"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1884431082" DateHigh="30591259"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3829432381" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3830342833" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1007048283" DateHigh="30590227"/>
@@ -8,12 +8,12 @@
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3832471209" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3833636624" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3834196616" DateHigh="30589842"/>
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\CS190_Project2_WwiseProject.Andrew Smith.wsettings" DateLow="1908212595" DateHigh="30590264"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\CS190_Project2_WwiseProject.Andrew Smith.wsettings" DateLow="452556603" DateHigh="30591062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\CS190_Project2_WwiseProject.wproj" DateLow="3919470576" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3834837128" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3835877619" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Effects\Factory Effects.wwu" DateLow="3836678106" DateHigh="30589842"/>
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Events\Default Work Unit.wwu" DateLow="2164991738" DateHigh="30591055"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Events\Default Work Unit.wwu" DateLow="2013744377" DateHigh="30591258"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3046111875" DateHigh="30591051"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3838329264" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3839835317" DateHigh="30589842"/>
@@ -23,7 +23,7 @@
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3909138724" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3910322046" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Queries\Factory Queries.wwu" DateLow="3911328019" DateHigh="30589842"/>
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3045856105" DateHigh="30591051"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2013929866" DateHigh="30591258"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3914302928" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\States\Default Work Unit.wwu" DateLow="3915829069" DateHigh="30589842"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3916429543" DateHigh="30589842"/>

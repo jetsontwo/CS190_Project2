@@ -18,6 +18,9 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{23E7380F-494B-4924-8F27-E6FCD19B5B0E}" ShortID="613077474">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="15"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -32,7 +35,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>15</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -187,6 +190,53 @@
 				</Sound>
 				<Sound Name="Land" ID="{9B889616-D29B-4280-A7AA-4FDEFD2992CD}" ShortID="899249480" Type="SoundFX">
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{DFC6E1A6-4742-4898-88CD-625B4E4F5F2C}" ShortID="912666653">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{FF37C9C4-C11D-4220-A9A8-BE02BCE98BDE}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
 						</Reference>
@@ -402,6 +452,11 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="LightsaberNoises" ID="{324A96FA-E024-4D8A-BE8F-B85EB02E64EF}" ShortID="63346103">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -483,6 +538,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="LightsaberSounds-2" ID="{1A7598F1-04EE-40EC-92DB-E90B553F137D}" ShortID="741992784" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -570,6 +632,101 @@
 						</Reference>
 					</ReferenceList>
 				</BlendContainer>
+				<Sound Name="Lightsaber-Idle-Loop_01" ID="{75415E7E-8E89-487C-A0B2-56578ED8E6BA}" ShortID="917841915" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{3FF89AFF-9377-423E-A581-DCEB741ECA16}" ShortID="542914830">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="15"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{5E51A9F5-3601-457D-BE7E-F59073EAA0F1}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>15</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lightsaber-Idle" ID="{5F62DCEA-BAB2-48B3-8DEF-2B8E627B0867}" ShortID="725344981">
+							<Language>SFX</Language>
+							<AudioFile>Lightsaber-Idle.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="544707737"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{66AC5FF8-4E44-4C17-B5E5-80B511E38E8F}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-5.40540540540542"/>
+								<Property Name="PanY" Type="Real64" Value="4.43740095087163"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{621CCF8B-642F-46EC-B7BE-3711364DBE3B}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Lightsaber-Idle" ID="{5F62DCEA-BAB2-48B3-8DEF-2B8E627B0867}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

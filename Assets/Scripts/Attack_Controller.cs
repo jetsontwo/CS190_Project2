@@ -11,8 +11,7 @@ public class Attack_Controller : MonoBehaviour {
 
     void Start()
     {
-        print("jkasfd");
-        at = GetComponentInParent<Attack_Trigger>();
+        at = transform.parent.GetComponent<Attack_Trigger>();
     }
 	
 	// Update is called once per frame
@@ -38,7 +37,7 @@ public class Attack_Controller : MonoBehaviour {
         }
         if (enemy != null)
             enemy.GetComponent<Stats>().hurt(10);
-        at.Attack();
+        play_sound();
         while (transform.rotation.eulerAngles.z < 320)
         {
             transform.Rotate(new Vector3(0, 0, 3));
@@ -46,6 +45,11 @@ public class Attack_Controller : MonoBehaviour {
         }
         yield return new WaitForSeconds(wait_time);
         attacking = false;
+    }
+
+    void play_sound()
+    {
+        at.Attack();
     }
 
     void OnTriggerEnter2D(Collider2D c)
