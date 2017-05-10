@@ -12,7 +12,7 @@ public class Explosion_Deleter : MonoBehaviour {
     }
 
 	void Update () {
-        if (!ps.isEmitting)
+        if (ps.isStopped)
             Destroy(gameObject);
 	}
 }
