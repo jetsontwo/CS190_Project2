@@ -411,6 +411,52 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Groan" ID="{1678791C-D355-469A-AC85-160EC71A4BB2}" ShortID="617501493" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7099F862-AA57-43F8-8FB8-3FC5293EC26F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+									<RTPCList>
+										<RTPC Name="" ID="{65923DED-4E12-4401-843E-7DBA9270F808}" ShortID="115505399">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="health" ID="{85F8F8E1-42D9-4D60-90CE-512A60D9AC74}" WorkUnitID="{D4AA0E90-CC3A-4A56-B6BB-DAE3478F3F09}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{75C8AD49-B717-466E-8963-B5BF61433219}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-481</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -420,16 +466,30 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Groan" ID="{5F93DC1B-7F04-4FAE-8FB6-1F1BEBD3CCE5}" ShortID="207270940">
+								<AudioFileSource Name="Groan_cut" ID="{6B796BF8-7F06-4D8E-A8FB-98A602D43B55}" ShortID="1002999199">
 									<Language>SFX</Language>
-									<AudioFile>Groan.wav</AudioFile>
+									<AudioFile>Groan_cut.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Groan" ID="{5F93DC1B-7F04-4FAE-8FB6-1F1BEBD3CCE5}" Platform="Linked"/>
+								<ActiveSource Name="Groan_cut" ID="{6B796BF8-7F06-4D8E-A8FB-98A602D43B55}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Scream" ID="{D551F07A-F05C-478C-BBC4-449AAFACD57C}" ShortID="129717546" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9AF174D8-B73D-49ED-960C-409AFB4A832F}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -637,6 +697,34 @@
 						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{95477A0E-C753-4894-9984-8807F9184EE4}" ShortID="417219781">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Player_Pos" ID="{73692C02-DE08-485A-8806-6FF972561FB8}" WorkUnitID="{D4AA0E90-CC3A-4A56-B6BB-DAE3478F3F09}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A46B6E21-D7CB-4C53-B588-64FC4222D0D4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

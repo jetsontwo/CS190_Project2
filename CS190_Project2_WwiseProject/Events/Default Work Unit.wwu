@@ -80,6 +80,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Damage" ID="{5D99B5C2-F607-4831-A394-F8D48395F13E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C1613BEC-F653-4DB6-8EBB-B295C303A725}" ShortID="988604731" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{53C5C5CA-9EB6-4075-BF6C-F0EFAB430023}" Global="false">
+									<ObjectRef Name="Groan" ID="{1678791C-D355-469A-AC85-160EC71A4BB2}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

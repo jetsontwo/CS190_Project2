@@ -5,6 +5,7 @@ using UnityEngine;
 public class Attack_Controller : MonoBehaviour {
 
     private Attack_Trigger at;
+    private Damage_Trigger dt;
     private bool attacking;
     public float wait_time;
     private GameObject enemy = null;
@@ -12,6 +13,7 @@ public class Attack_Controller : MonoBehaviour {
     void Start()
     {
         at = transform.parent.GetComponent<Attack_Trigger>();
+        dt = transform.parent.GetComponent<Damage_Trigger>();
     }
 	
 	// Update is called once per frame
@@ -36,8 +38,10 @@ public class Attack_Controller : MonoBehaviour {
             yield return new WaitForSeconds(0.001f);
         }
         if (enemy != null)
+        {
             enemy.GetComponent<Stats>().hurt(10);
-        play_sound();
+            play_sound();
+        }
         while (transform.rotation.eulerAngles.z < 320)
         {
             transform.Rotate(new Vector3(0, 0, 3));
@@ -50,6 +54,8 @@ public class Attack_Controller : MonoBehaviour {
     void play_sound()
     {
         at.Attack();
+        AkSoundEngine.SetRTPCValue("health", enemy.GetComponent<Stats>().health);
+        dt.Damage();
     }
 
     void OnTriggerEnter2D(Collider2D c)

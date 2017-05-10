@@ -21,6 +21,7 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="3774976978" Name="LightSaber_1" ObjectPath="\Events\Default Work Unit\LightSaber_1"/>
 				<Event Id="1238640123" Name="Saber_Attack" ObjectPath="\Events\Default Work Unit\Saber_Attack"/>
@@ -65,6 +66,10 @@
 				<File Id="973250252" Language="SFX">
 					<ShortName>Footstep1.wav</ShortName>
 					<Path>SFX\Footstep1_9E69E797.wem</Path>
+				</File>
+				<File Id="1002999199" Language="SFX">
+					<ShortName>Groan_cut.wav</ShortName>
+					<Path>SFX\Groan_cut_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

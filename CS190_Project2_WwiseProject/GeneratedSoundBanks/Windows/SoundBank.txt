@@ -3,9 +3,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	674522502	Land			\Default Work Unit\Land	
 	703966717	Sea_Noise			\Default Work Unit\Sea_Noise	
 	1238640123	Saber_Attack			\Default Work Unit\Saber_Attack	
+	1786804762	Damage			\Default Work Unit\Damage	
 	3157003241	Test			\Default Work Unit\Test	
 	3774976978	LightSaber_1			\Default Work Unit\LightSaber_1	
 	4048094104	Ship_Noise			\Default Work Unit\Ship_Noise	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1505523377	Player_Pos			\Default Work Unit\Player_Pos	
+	3677180323	health			\Default Work Unit\health	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	246320825	LightsaberSounds-3	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-3		121340
@@ -17,4 +22,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	647498923	SeaNoise-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\SeaNoise_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SeaNoise-Loop		33955904
 	708148662	LightsaberSounds-5	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-5		132368
 	973250252	Footstep1	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Footstep1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepRandomizer\Footstep1		159808
+	1002999199	Groan	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Groan_cut_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damage-GroanSounds\Groan		141184
 

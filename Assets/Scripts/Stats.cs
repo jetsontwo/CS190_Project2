@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour {
 
-    private int health, damage;
+    public int health, damage;
     public int initial_health;
 
     void Start()
