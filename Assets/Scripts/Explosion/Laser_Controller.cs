@@ -10,11 +10,11 @@ public class Laser_Controller : MonoBehaviour {
     {
         if(go_right)
         {
-            transform.position = new Vector3(-35, Random.Range(0f, 5f));
+            transform.position = new Vector3(-45, Random.Range(0f, 5f));
         }
         else
         {
-            transform.position = new Vector3(35, Random.Range(0f, 5f));
+            transform.position = new Vector3(45, Random.Range(0f, 5f));
         }
         speed *= Random.Range(0.8f, 1.2f);
         GetComponent<Rigidbody2D>().velocity = new Vector3(speed, 0, 0);
@@ -22,7 +22,7 @@ public class Laser_Controller : MonoBehaviour {
     }
     void Update()
     {
-        if ((transform.position.x < -35 && speed < 0) || (transform.position.x > 35 && speed > 0))
+        if ((transform.position.x < -45 && speed < 0) || (transform.position.x > 45 && speed > 0))
             Destroy(gameObject);
     }
 }
