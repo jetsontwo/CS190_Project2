@@ -183,6 +183,34 @@
 							<Language>SFX</Language>
 							<AudioFile>GameSountrack.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="button-click" ID="{5698F136-F19D-4104-A4F0-44786566DCBB}" ShortID="378479145">
+							<Language>SFX</Language>
+							<AudioFile>button-click.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="explosion-quick-decay" ID="{7E288449-F91A-4551-976D-82A20B6769F5}" ShortID="222865520">
+							<Language>SFX</Language>
+							<AudioFile>explosion-quick-decay.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="hit-marker1" ID="{D08AFDD5-7B1A-4275-AC73-30969F16C866}" ShortID="672913426">
+							<Language>SFX</Language>
+							<AudioFile>hit-marker1.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="hit-marker2" ID="{AE67CB2A-DA82-4FF5-A80E-3257873ACAF9}" ShortID="441912203">
+							<Language>SFX</Language>
+							<AudioFile>hit-marker2.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="hit-marker3" ID="{40DDAE31-7CE9-445A-903F-911F43BD1E71}" ShortID="784929425">
+							<Language>SFX</Language>
+							<AudioFile>hit-marker3.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="laser-fire" ID="{A1AA9548-F1BE-4D78-ACC9-519D7F453FC0}" ShortID="770836936">
+							<Language>SFX</Language>
+							<AudioFile>laser-fire.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="men-battle-yelling" ID="{73B59246-9727-46B1-94F2-69DFBAB91342}" ShortID="1042005901">
+							<Language>SFX</Language>
+							<AudioFile>men-battle-yelling.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="GameSountrack" ID="{D008D386-2BC3-4EA6-AF46-E9D74E1D45EF}" Platform="Linked"/>
@@ -815,6 +843,158 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
 						</Reference>
 					</ReferenceList>
+				</Sound>
+				<Sound Name="button-click" ID="{291F59E8-2400-41C0-A2C7-4B405325AF9E}" ShortID="368387830" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="button-click" ID="{2BB8D149-7F5E-40B0-8AE4-04C23D3779A9}" ShortID="1039856799">
+							<Language>SFX</Language>
+							<AudioFile>button-click.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="button-click" ID="{2BB8D149-7F5E-40B0-8AE4-04C23D3779A9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="explosion-quick-decay" ID="{08DF76A8-AB6D-44CE-9644-DA990CE4A524}" ShortID="179537306" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="explosion-quick-decay" ID="{09D7C5EE-65A9-4EAE-9F7F-B7011878DF8A}" ShortID="838790232">
+							<Language>SFX</Language>
+							<AudioFile>explosion-quick-decay.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="men-battle-yelling" ID="{3CA22FAA-4073-4311-8CD4-0DD2D096D46E}" ShortID="80193324">
+							<Language>SFX</Language>
+							<AudioFile>men-battle-yelling.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="explosion-quick-decay" ID="{09D7C5EE-65A9-4EAE-9F7F-B7011878DF8A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="hit-marker-randomizer" ID="{D15D88B9-C8B8-49D8-AF28-80B09E8DDCBC}" ShortID="594491801">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="hit-marker1" ID="{04750188-ECB7-4080-A13A-EA532EC6C21F}" ShortID="221546258" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit-marker1" ID="{47387E3B-17D9-4431-B6A7-0B6894645016}" ShortID="471076865">
+									<Language>SFX</Language>
+									<AudioFile>hit-marker1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit-marker1" ID="{47387E3B-17D9-4431-B6A7-0B6894645016}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit-marker2" ID="{76802787-E1AD-49FE-B676-4E2EB55B911A}" ShortID="744781441" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit-marker2" ID="{0502CA91-FA67-4A39-B762-39DF9C4C7BB9}" ShortID="1032991985">
+									<Language>SFX</Language>
+									<AudioFile>hit-marker2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit-marker2" ID="{0502CA91-FA67-4A39-B762-39DF9C4C7BB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit-marker3" ID="{50169306-C56E-4C41-B93C-0AA679C74BA9}" ShortID="636984233" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit-marker3" ID="{5D5C725C-04C6-4D5D-9DD3-1A4BB450178A}" ShortID="163776119">
+									<Language>SFX</Language>
+									<AudioFile>hit-marker3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit-marker3" ID="{5D5C725C-04C6-4D5D-9DD3-1A4BB450178A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="laser-fire" ID="{42539177-12DF-4F2C-979E-D3A43B29BD76}" ShortID="977992979" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="laser-fire" ID="{3920E8D1-1ACB-45EE-81A3-89B68254F819}" ShortID="467410028">
+							<Language>SFX</Language>
+							<AudioFile>laser-fire.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="laser-fire" ID="{3920E8D1-1ACB-45EE-81A3-89B68254F819}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="men-battle-yelling" ID="{546DA9B9-E3B9-4845-8454-A53BDEF53BA8}" ShortID="409363944" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="men-battle-yelling" ID="{350DA595-06F4-41F6-B1C2-9B3D70962BA9}" ShortID="795247745">
+							<Language>SFX</Language>
+							<AudioFile>men-battle-yelling.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="80193324"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="men-battle-yelling" ID="{350DA595-06F4-41F6-B1C2-9B3D70962BA9}" Platform="Linked"/>
+					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
 		</WorkUnit>
