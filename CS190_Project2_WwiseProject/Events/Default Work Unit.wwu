@@ -91,6 +91,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Win" ID="{E5BCE1EF-9F1F-4221-920A-0D8FE258F4EA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9DEADC4A-A0B8-4CBA-8755-F903D82F8FDF}" ShortID="1000591626" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{767D0B87-C6B0-4DA9-96CA-9B76928BAF99}" Global="false">
+									<ObjectRef Name="BattleAmbiance-Loop" ID="{877C0201-43BF-45D2-A223-24CACD8DEA81}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

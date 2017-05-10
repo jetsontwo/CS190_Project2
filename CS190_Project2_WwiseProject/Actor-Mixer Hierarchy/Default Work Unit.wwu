@@ -806,6 +806,16 @@
 						<ActiveSource Name="Lightsaber-Idle" ID="{5F62DCEA-BAB2-48B3-8DEF-2B8E627B0867}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Win_Music" ID="{D96D80CD-31E0-4116-8405-81E77D7AF416}" ShortID="99370961" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{07BACDF8-6DA7-41E8-A251-5373F80863BA}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
