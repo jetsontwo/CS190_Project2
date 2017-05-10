@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour {
     private Step_Trigger step;
     private Jump_Trigger jump;
     public Attack_Controller ac;
+    public bool can_attack;
     private float horiz;
     private int count = 0;
     private bool on_ground = false, is_right = true, need_land = false;
@@ -30,12 +31,12 @@ public class Movement : MonoBehaviour {
             rb.velocity += new Vector2(horiz * speed * Time.deltaTime, 0);
         else if (horiz == 0)
             rb.velocity -= new Vector2(rb.velocity.x / decel, 0);
-        if (horiz < 0 && is_right == true)
+        if (horiz < 0 && is_right == true && can_attack)
         {
             is_right = false;
             ac.rotate_sword();
         }
-        else if (horiz > 0 && is_right == false)
+        else if (horiz > 0 && is_right == false && can_attack)
         {
             is_right = true;
             ac.rotate_sword();
@@ -50,7 +51,7 @@ public class Movement : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && can_attack)
             ac.attack();
 
         if (count >= 24)
