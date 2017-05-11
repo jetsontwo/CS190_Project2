@@ -1028,7 +1028,13 @@
 				<Sound Name="Alarm" ID="{1BBEC37E-C36A-4A9C-B99C-C6F718785A6C}" ShortID="309746718" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{4EBC35FD-7DF1-482E-A01F-FEC5E254A819}" ShortID="637882003">
+									<ReferenceList/>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
