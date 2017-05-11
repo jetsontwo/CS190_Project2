@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class Enemy_Counter : MonoBehaviour {
 
     public GameObject enemy_holder;
+    public AkAmbient[] to_turn_off;
+    public AkAmbient[] to_turn_on;
     private Text counter;
+    bool won = true;
     
     void Start()
     {
@@ -14,8 +17,24 @@ public class Enemy_Counter : MonoBehaviour {
     }	
 	// Update is called once per frame
 	void Update () {
-        counter.text = "Enemies Left: " + enemy_holder.transform.childCount;
         if (enemy_holder.transform.childCount == 0)
+            Win();
+        else
+        {
+            counter.text = "Enemies Left: " + enemy_holder.transform.childCount;
+        }
+    }
+
+    void Win()
+    {
+        if(won)
+        {
             counter.text = "YOU WIN!";
-	}
+            foreach (AkAmbient sound in to_turn_off)
+                sound.enabled = false;
+            foreach (AkAmbient sound in to_turn_on)
+                sound.enabled = true;
+            won = false;
+        }        
+    }
 }
