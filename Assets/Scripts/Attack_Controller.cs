@@ -31,7 +31,7 @@ public class Attack_Controller : MonoBehaviour {
     IEnumerator attack_anim()
     {
         attacking = true;
-
+        at.Attack();
         while (transform.rotation.eulerAngles.z > 270)
         {
             transform.Rotate(new Vector3(0, 0, -3));
@@ -53,7 +53,6 @@ public class Attack_Controller : MonoBehaviour {
 
     void play_sound()
     {
-        at.Attack();
         AkSoundEngine.SetRTPCValue("health", enemy.GetComponent<Stats>().health);
         dt.Damage();
     }

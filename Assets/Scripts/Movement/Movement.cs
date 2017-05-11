@@ -69,7 +69,7 @@ public class Movement : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D c)
     {
         if (c.tag == "Button")
-            c.GetComponent<Button_Press>().OnPress();
+            c.GetComponent<Button_Press>().OnPress(); 
         else if (need_land == true)
         {
             jump.Jump();

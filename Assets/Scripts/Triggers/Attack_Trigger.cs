@@ -10,3 +10,12 @@ public class Attack_Trigger : AkTriggerBase
             triggerDelegate(null);
     }
 }
+
+public class Button_Trigger : AkTriggerBase
+{
+    public void Button()
+    {
+        if (triggerDelegate != null)
+            triggerDelegate(null);
+    }
+}

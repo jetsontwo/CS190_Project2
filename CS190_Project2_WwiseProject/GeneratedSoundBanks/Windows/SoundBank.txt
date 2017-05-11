@@ -1,26 +1,40 @@
 Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Explosion	
 	621108255	Step			\Default Work Unit\Step	
 	674522502	Land			\Default Work Unit\Land	
 	703966717	Sea_Noise			\Default Work Unit\Sea_Noise	
+	761518783	BattleSounds			\Default Work Unit\BattleSounds	
+	979765101	Win			\Default Work Unit\Win	
 	1238640123	Saber_Attack			\Default Work Unit\Saber_Attack	
+	1675087065	Laser_Fire			\Default Work Unit\Laser_Fire	
 	1786804762	Damage			\Default Work Unit\Damage	
 	3157003241	Test			\Default Work Unit\Test	
+	3607381029	Hit_Marker			\Default Work Unit\Hit_Marker	
 	3774976978	LightSaber_1			\Default Work Unit\LightSaber_1	
 	4048094104	Ship_Noise			\Default Work Unit\Ship_Noise	
+	4051332235	ButtonClick			\Default Work Unit\ButtonClick	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1505523377	Player_Pos			\Default Work Unit\Player_Pos	
 	3677180323	health			\Default Work Unit\health	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	155356747	BattleAmbiance-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\CRWD_Military_HS01_30_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\BattleAmbiance-Loop		1742912
+	163776119	hit-marker3	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\hit-marker3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit-marker-randomizer\hit-marker3		81984
 	246320825	LightsaberSounds-3	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-3		121340
 	256581324	ShipNoises-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\ShipNoises_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShipNoises-Loop		12148800
 	310099400	Land	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\JumpLanding_Cut_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land		52984
 	326220104	Footstep2	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Footstep2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepRandomizer\Footstep2		174144
 	356213069	LightsaberSounds-4	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-4		165444
+	467410028	laser-fire	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\laser-fire_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\laser-fire		88128
+	471076865	hit-marker1	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\hit-marker1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit-marker-randomizer\hit-marker1		110656
 	544707737	Lightsaber-Idle-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Lightsaber-Idle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lightsaber-Idle-Loop		19984428
 	647498923	SeaNoise-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\SeaNoise_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SeaNoise-Loop		33955904
 	708148662	LightsaberSounds-5	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-5		132368
+	838790232	explosion-quick-decay	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\explosion-quick-decay_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\explosion-quick-decay		399424
 	973250252	Footstep1	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Footstep1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepRandomizer\Footstep1		159808
 	1002999199	Groan	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Groan_cut_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damage-GroanSounds\Groan		141184
+	1032991985	hit-marker2	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\hit-marker2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit-marker-randomizer\hit-marker2		41024
+	1039856799	button-click	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\button-click_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\button-click		190528
+	1042005901	men-battle-yelling	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\men-battle-yelling_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\men-battle-yelling		21133376
 

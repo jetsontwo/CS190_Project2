@@ -102,6 +102,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BattleSounds" ID="{8347A093-EDCA-48FD-B3B4-F4B87DC10296}">
+					<ChildrenList>
+						<Action Name="Play" ID="{13C0D8C6-1AED-437F-83FB-4EDF52E82F02}" ShortID="685632176" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C4762332-2F38-44DE-BECB-6E0ADEAA7F13}" Global="false">
+									<ObjectRef Name="men-battle-yelling" ID="{546DA9B9-E3B9-4845-8454-A53BDEF53BA8}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Explosion" ID="{125D7F1F-07F5-4BD2-A0DE-5C1D241ADD40}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6807F3CC-4C3A-47D1-BD29-12B4D2B43AE4}" ShortID="499652489" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AB84B369-4E3B-4E09-B2C5-A273DAE5A4C2}" Global="false">
+									<ObjectRef Name="explosion-quick-decay" ID="{08DF76A8-AB6D-44CE-9644-DA990CE4A524}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ButtonClick" ID="{E184D8A7-C18F-4122-A3E8-57B4FD710126}">
+					<ChildrenList>
+						<Action Name="Play" ID="{095DCA5C-52ED-420D-B485-BE2F2682ACC7}" ShortID="62818179" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{89168B22-70CA-4AC6-84AC-202CFDD647C9}" Global="false">
+									<ObjectRef Name="button-click" ID="{291F59E8-2400-41C0-A2C7-4B405325AF9E}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Laser_Fire" ID="{3E31A76A-2A85-4063-8F81-01A93A3DAFEB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F8E1F7D8-0FCB-435A-B19C-531140BFDCDA}" ShortID="378658762" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8D1E9545-A3F4-4D81-80F7-7B42F06ED61E}" Global="false">
+									<ObjectRef Name="laser-fire" ID="{42539177-12DF-4F2C-979E-D3A43B29BD76}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hit_Marker" ID="{B1E14F9E-7F69-41E4-BF36-06C0E8953FAC}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4BEB8374-E524-4697-B433-A15B57A31869}" ShortID="20769795" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FC3D3EC9-811C-488F-B237-C9E3C1160E43}" Global="false">
+									<ObjectRef Name="hit-marker-randomizer" ID="{D15D88B9-C8B8-49D8-AF28-80B09E8DDCBC}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

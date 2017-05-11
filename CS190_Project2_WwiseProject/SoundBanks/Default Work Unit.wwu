@@ -5,12 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="SoundBank" ID="{5E820710-9F3E-406C-B5D6-F1160C8B4120}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Laser_Fire" ID="{3E31A76A-2A85-4063-8F81-01A93A3DAFEB}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Sea_Noise" ID="{E343CFFE-7C55-40CD-8A05-28914128DBB9}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ButtonClick" ID="{E184D8A7-C18F-4122-A3E8-57B4FD710126}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Land" ID="{9656A614-A2C3-4198-8F62-3F228F7116BF}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Hit_Marker" ID="{B1E14F9E-7F69-41E4-BF36-06C0E8953FAC}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Win" ID="{E5BCE1EF-9F1F-4221-920A-0D8FE258F4EA}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Damage" ID="{5D99B5C2-F607-4831-A394-F8D48395F13E}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BattleSounds" ID="{8347A093-EDCA-48FD-B3B4-F4B87DC10296}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ship_Noise" ID="{0DB7BAA8-C7CA-4969-99E0-CDFBF2A2E535}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Saber_Attack" ID="{FF563E5C-ACD8-4B0F-907E-CA5115743C81}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Step" ID="{7AEA2950-E4B0-4BAA-B0F7-338A1B32374E}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Explosion" ID="{125D7F1F-07F5-4BD2-A0DE-5C1D241ADD40}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LightSaber_1" ID="{6E63AA12-590E-4DF3-98F1-54E7C8465118}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Test" ID="{E5D0F20E-5802-4EFD-8F5E-EE7DA53CF434}" WorkUnitID="{825F0164-53AB-41EC-926C-A1FCA08D8257}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

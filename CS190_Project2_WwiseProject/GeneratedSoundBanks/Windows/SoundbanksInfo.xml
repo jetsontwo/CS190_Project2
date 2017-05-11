@@ -21,16 +21,30 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="761518783" Name="BattleSounds" ObjectPath="\Events\Default Work Unit\BattleSounds"/>
+				<Event Id="4051332235" Name="ButtonClick" ObjectPath="\Events\Default Work Unit\ButtonClick"/>
 				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage"/>
+				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\Explosion"/>
+				<Event Id="3607381029" Name="Hit_Marker" ObjectPath="\Events\Default Work Unit\Hit_Marker"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
+				<Event Id="1675087065" Name="Laser_Fire" ObjectPath="\Events\Default Work Unit\Laser_Fire"/>
 				<Event Id="3774976978" Name="LightSaber_1" ObjectPath="\Events\Default Work Unit\LightSaber_1"/>
 				<Event Id="1238640123" Name="Saber_Attack" ObjectPath="\Events\Default Work Unit\Saber_Attack"/>
 				<Event Id="703966717" Name="Sea_Noise" ObjectPath="\Events\Default Work Unit\Sea_Noise"/>
 				<Event Id="4048094104" Name="Ship_Noise" ObjectPath="\Events\Default Work Unit\Ship_Noise"/>
 				<Event Id="621108255" Name="Step" ObjectPath="\Events\Default Work Unit\Step"/>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="155356747" Language="SFX">
+					<ShortName>CRWD_Military_HS01_30_01.wav</ShortName>
+					<Path>SFX\CRWD_Military_HS01_30_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="163776119" Language="SFX">
+					<ShortName>hit-marker3.wav</ShortName>
+					<Path>SFX\hit-marker3_9E69E797.wem</Path>
+				</File>
 				<File Id="246320825" Language="SFX">
 					<ShortName>LightsaberSounds-3.wav</ShortName>
 					<Path>SFX\LightsaberSounds-3_9E69E797.wem</Path>
@@ -51,6 +65,14 @@
 					<ShortName>LightsaberSounds-4.wav</ShortName>
 					<Path>SFX\LightsaberSounds-4_9E69E797.wem</Path>
 				</File>
+				<File Id="467410028" Language="SFX">
+					<ShortName>laser-fire.wav</ShortName>
+					<Path>SFX\laser-fire_9E69E797.wem</Path>
+				</File>
+				<File Id="471076865" Language="SFX">
+					<ShortName>hit-marker1.wav</ShortName>
+					<Path>SFX\hit-marker1_9E69E797.wem</Path>
+				</File>
 				<File Id="544707737" Language="SFX">
 					<ShortName>Lightsaber-Idle.wav</ShortName>
 					<Path>SFX\Lightsaber-Idle_4B8CC0C5.wem</Path>
@@ -63,6 +85,10 @@
 					<ShortName>LightsaberSounds-5.wav</ShortName>
 					<Path>SFX\LightsaberSounds-5_9E69E797.wem</Path>
 				</File>
+				<File Id="838790232" Language="SFX">
+					<ShortName>explosion-quick-decay.wav</ShortName>
+					<Path>SFX\explosion-quick-decay_9E69E797.wem</Path>
+				</File>
 				<File Id="973250252" Language="SFX">
 					<ShortName>Footstep1.wav</ShortName>
 					<Path>SFX\Footstep1_9E69E797.wem</Path>
@@ -70,6 +96,18 @@
 				<File Id="1002999199" Language="SFX">
 					<ShortName>Groan_cut.wav</ShortName>
 					<Path>SFX\Groan_cut_9E69E797.wem</Path>
+				</File>
+				<File Id="1032991985" Language="SFX">
+					<ShortName>hit-marker2.wav</ShortName>
+					<Path>SFX\hit-marker2_9E69E797.wem</Path>
+				</File>
+				<File Id="1039856799" Language="SFX">
+					<ShortName>button-click.wav</ShortName>
+					<Path>SFX\button-click_9E69E797.wem</Path>
+				</File>
+				<File Id="1042005901" Language="SFX">
+					<ShortName>men-battle-yelling.wav</ShortName>
+					<Path>SFX\men-battle-yelling_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

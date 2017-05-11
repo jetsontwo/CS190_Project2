@@ -864,6 +864,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="explosion-quick-decay" ID="{08DF76A8-AB6D-44CE-9644-DA990CE4A524}" ShortID="179537306" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -887,6 +894,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<RandomSequenceContainer Name="hit-marker-randomizer" ID="{D15D88B9-C8B8-49D8-AF28-80B09E8DDCBC}" ShortID="594491801">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -956,6 +970,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="laser-fire" ID="{42539177-12DF-4F2C-979E-D3A43B29BD76}" ShortID="977992979" Type="SoundFX">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -975,6 +996,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="men-battle-yelling" ID="{546DA9B9-E3B9-4845-8454-A53BDEF53BA8}" ShortID="409363944" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA8D9BD7-A967-4E97-937E-FF987283BC89}"/>
@@ -988,7 +1017,7 @@
 							<Language>SFX</Language>
 							<AudioFile>men-battle-yelling.wav</AudioFile>
 							<ConvertedFileIDList>
-								<File ID="80193324"/>
+								<File ID="1042005901"/>
 							</ConvertedFileIDList>
 						</AudioFileSource>
 					</ChildrenList>
