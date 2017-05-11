@@ -1027,11 +1027,33 @@
 				</Sound>
 				<Sound Name="Alarm" ID="{1BBEC37E-C36A-4A9C-B99C-C6F718785A6C}" ShortID="309746718" Type="SoundFX">
 					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{4EBC35FD-7DF1-482E-A01F-FEC5E254A819}" ShortID="637882003">
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Player_Pos" ID="{73692C02-DE08-485A-8806-6FF972561FB8}" WorkUnitID="{D4AA0E90-CC3A-4A56-B6BB-DAE3478F3F09}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DB3669D5-B0D9-430D-8043-42993E445016}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
 								</RTPC>
 							</RTPCList>
 						</Property>
@@ -1100,6 +1122,9 @@
 							<AudioFile>alarm-bounce.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{45F29C86-F486-452C-BC85-7AAD4931DEAA}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="alarm-bounce" ID="{81D8032A-C3A9-4B85-A29D-94219602C2D4}" Platform="Linked"/>
 					</ActiveSourceList>
