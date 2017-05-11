@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	674522502	Land			\Default Work Unit\Land	
 	703966717	Sea_Noise			\Default Work Unit\Sea_Noise	
 	761518783	BattleSounds			\Default Work Unit\BattleSounds	
+	855317084	Alarm			\Default Work Unit\Alarm	
 	979765101	Win			\Default Work Unit\Win	
 	1238640123	Saber_Attack			\Default Work Unit\Saber_Attack	
 	1675087065	Laser_Fire			\Default Work Unit\Laser_Fire	
@@ -28,6 +29,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	356213069	LightsaberSounds-4	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-4		165444
 	467410028	laser-fire	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\laser-fire_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\laser-fire		88128
 	471076865	hit-marker1	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\hit-marker1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit-marker-randomizer\hit-marker1		110656
+	502078874	Alarm	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\alarm-bounce_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alarm		705664
 	544707737	Lightsaber-Idle-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\Lightsaber-Idle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lightsaber-Idle-Loop		19984428
 	647498923	SeaNoise-Loop	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\SeaNoise_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SeaNoise-Loop		33955904
 	708148662	LightsaberSounds-5	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project2\CS190_Project2_WwiseProject\.cache\Windows\SFX\LightsaberSounds-5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsaberNoises\LightsaberSounds-5		132368

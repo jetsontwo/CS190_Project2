@@ -157,6 +157,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Alarm" ID="{8D1BED2B-012E-4D9F-8301-17DE58FA2337}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F1E7BC9E-D5DC-420F-9698-533D969A5952}" ShortID="421484421" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5F60D281-793C-4478-8A4C-C51AD41B78A4}" Global="false">
+									<ObjectRef Name="Alarm" ID="{1BBEC37E-C36A-4A9C-B99C-C6F718785A6C}" WorkUnitID="{9DB8A119-FE8F-4F89-969C-32DB0F775C5D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

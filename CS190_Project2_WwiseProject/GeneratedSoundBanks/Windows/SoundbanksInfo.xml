@@ -21,6 +21,7 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="855317084" Name="Alarm" ObjectPath="\Events\Default Work Unit\Alarm"/>
 				<Event Id="761518783" Name="BattleSounds" ObjectPath="\Events\Default Work Unit\BattleSounds"/>
 				<Event Id="4051332235" Name="ButtonClick" ObjectPath="\Events\Default Work Unit\ButtonClick"/>
 				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage"/>
@@ -72,6 +73,10 @@
 				<File Id="471076865" Language="SFX">
 					<ShortName>hit-marker1.wav</ShortName>
 					<Path>SFX\hit-marker1_9E69E797.wem</Path>
+				</File>
+				<File Id="502078874" Language="SFX">
+					<ShortName>alarm-bounce.wav</ShortName>
+					<Path>SFX\alarm-bounce_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="544707737" Language="SFX">
 					<ShortName>Lightsaber-Idle.wav</ShortName>
