@@ -865,10 +865,42 @@
 				</Sound>
 				<Sound Name="explosion-quick-decay" ID="{08DF76A8-AB6D-44CE-9644-DA990CE4A524}" ShortID="179537306" Type="SoundFX">
 					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{F9C97884-2A2E-45FC-842E-984184841921}" ShortID="802156086">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Player_Pos" ID="{73692C02-DE08-485A-8806-6FF972561FB8}" WorkUnitID="{D4AA0E90-CC3A-4A56-B6BB-DAE3478F3F09}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{542BF09E-26F2-49A0-A8D0-BEE849DB6D3E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -889,6 +921,9 @@
 							<AudioFile>men-battle-yelling.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{1BC88B03-0E2B-45F4-91C3-D495B09F03A4}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="explosion-quick-decay" ID="{09D7C5EE-65A9-4EAE-9F7F-B7011878DF8A}" Platform="Linked"/>
 					</ActiveSourceList>
